@@ -1,0 +1,15 @@
+Subject: Urgent Password Reset Required
+
+Dear User,
+
+We detected unusual activity on your account.
+
+Please verify your account immediately to avoid suspension.
+
+Click here:
+http://127.0.0.1:5500
+
+Thank You,
+Google Security Team
+
+(This is a Cybersecurity Awareness Simulation)
