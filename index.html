@@ -1,36 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Google Account Verification</title>
-<link rel="stylesheet" href="style.css">
+    <title>Google Security Alert</title>
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            background:#f4f4f4;
+            padding:40px;
+        }
+
+        .email-box{
+            background:white;
+            max-width:700px;
+            margin:auto;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#1a73e8;
+            color:white;
+            padding:12px 20px;
+            text-decoration:none;
+            border-radius:5px;
+            margin-top:15px;
+        }
+
+        .btn:hover{
+            background:#1557b0;
+        }
+    </style>
 </head>
 <body>
 
-<div class="login-box">
+<div class="email-box">
+    <h2>Google Security Alert</h2>
 
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-         alt="Google Logo"
-         class="logo">
+    <p>Dear User,</p>
 
-    <h2>Sign in</h2>
-    <p>Use your Google Account</p>
-
-    <form id="loginForm">
-        <input type="email" placeholder="Email or Phone" required>
-        <input type="password" placeholder="Password" required>
-
-        <button type="submit">Next</button>
-    </form>
-
-    <p class="warning">
-        Educational Cybersecurity Awareness Simulation Only
+    <p>
+        We detected unusual activity on your account.
+        To prevent account suspension, please verify your account immediately.
     </p>
 
-</div>
+    <a href="login.html" class="btn">Verify Account</a>
 
-<script src="script.js"></script>
+    <p style="margin-top:20px;">
+        Thank You,<br>
+        Google Security Team
+    </p>
+
+    <hr>
+
+    <p style="color:red;">
+        Educational Cybersecurity Awareness Simulation Only
+    </p>
+</div>
 
 </body>
 </html>
